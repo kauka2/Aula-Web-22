@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+*{
+    font-family: Julius Sans One;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+:root {
+    --white: #ffffff;
+    --black: #000000;
+    --primary: #d9eda2;
+    --secondary: #EECB70;
+    --third: #FB6F6F;
+    --back: #E5E5E5;
+}
+header {
+    display: flex;
+    border-bottom: 0.5rem solid var(--black);
+}
+header picture img {
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+}
+header nav {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+header ul li {
+    margin: 0 1rem;
+}
+header ul li a {
+    text-decoration: none;
+    color: var(--black);
+}
+main {
+    min-width: 80vh;
+}
+
+footer {
+    background-color: var(--back);
+    height: 4rem;
+    display: flex;
+    align-items: center;
+}
+footer > div {
+    display: flex;
+    align-items: center;
+}
+.content {
+    width: 100%;
+    max-width: 1047.04px;
+    margin: 0 auto;
+}
+main > picture.main > img {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap:  0.5rem;
+}
